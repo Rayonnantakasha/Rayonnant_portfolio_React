@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg"
 
 function Header() {
     return (
-    <header className="fixed top-0 left-0 w-full z-10 bg-[#2D383C] flex items-center justify-between lg:px-32 px-2 py-2" id="header">
+    <header className=" bg-[#2D383C] flex items-center justify-between lg:px-32 px-2 py-2" id="header">
       <div>
         <a href=""><img src={logo} alt="akashadev" className="lg:w-52 w-36" /></a>
       </div>
