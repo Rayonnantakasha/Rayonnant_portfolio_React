@@ -10,8 +10,12 @@ function App() {
   return (
     <>
       <Header />
-     <main>
+      <div className="lg:pb-8 pt-24 pb-32">
+      </div>
+     <main className="lg:px-32 px-2">
       <HeroSection />
+      <div className="lg:pb-8 pt-24 pb-32">
+      </div>
      </main>
       
     </>
