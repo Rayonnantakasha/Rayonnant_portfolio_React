@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
+import About from "./components/About"
 import "./styles/App.css"
 import "./styles/index.css"
 
@@ -14,6 +15,9 @@ function App() {
       </div>
      <main className="lg:px-32 px-2">
       <HeroSection />
+      <div className="lg:pb-8 pt-24 pb-32">
+      </div>
+      <About />
       <div className="lg:pb-8 pt-24 pb-32">
       </div>
      </main>
