@@ -1,7 +1,9 @@
+import {useFadeIn} from '../../useFadeIn'
 
 function Technology() {
+    const visible = useFadeIn()
     return (
-        <section>
+        <section className={`fade-in ${visible ? 'visible' : ''}`}>
             <div>
               <div className="">
                 <h2 className="font-extrabold text-center lg:text-6xl text-2xl">TECHNOLOGIES </h2>

@@ -1,9 +1,10 @@
-
+import { useFadeIn  } from '../../useFadeIn'
 
 function Skills() {
+  const visible = useFadeIn()
     return (
-       <section>
-        <div className=" ">
+       <section id="competences">
+        <div className ={`fade-in ${visible ? 'visible' : ''}`}>
             <h2 className="font-extrabold text-center text-2xl lg:text-6xl">MES COMPÉTENCES </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-24">
               <div className="bg-[#38464B] p-6 shadow-xl backdrop-opacity-60">

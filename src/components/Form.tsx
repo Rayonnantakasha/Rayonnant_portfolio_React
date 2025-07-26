@@ -1,8 +1,10 @@
+import { useFadeIn } from '../../useFadeIn'
 
 function Form() {
+    const visible = useFadeIn()
     return (
         <section>
-           <div className="container mx-auto px-6">
+           <div className={`container mx-auto px-6 ${visible ? 'visible' : ''}`}>
              <h2 className="lg:text-6xl text-xl font-bold mb-4 text-center">Envoyez un message !</h2>
              <p className="text-center text-gray-200 mb-12">Vous avez une question ou une proposition, ou vous souhaitez simplement <br/> dire bonjour ? Allez-y</p>
     

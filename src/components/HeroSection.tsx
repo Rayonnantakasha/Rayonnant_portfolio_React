@@ -1,10 +1,10 @@
-
-
+import { useFadeIn } from '../../useFadeIn'
 import monProfil from "../assets/monProfil.png"
 
 function HeroSection() {
+    const visible = useFadeIn()
     return (
-    <section>
+    <section className={`fade-in ${visible ? 'visible' : ''}`}>
        <div className="lg:flex lg:items-center lg:justify-between lg:items-center">
          <div>
             <h2 className="card lg:text-8xl pb-2 text-5xl md:text-6xl text-outline-white font-black">Je suis</h2>
@@ -17,7 +17,7 @@ function HeroSection() {
                 <span className="font-bold">ECRIVEZ-MOI</span>
               </button>
            </a>
-           <a href="/document/CV_Rayonnant_Nyonsa.pdf" target="_blank" rel="noopener" className="text-[#ff5940] lg:pt-0 pt-8 font-bold flex items-center gap-1 hover:text-white transition duration-300 ease-in-out">
+           <a href="/CV_Rayonnant_Nyonsa.pdf" target="_blank" rel="noopener" className="text-[#ff5940] lg:pt-0 pt-8 font-bold flex items-center gap-1 hover:text-white transition duration-300 ease-in-out">
                MON CV
              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" 
               role="img" className="iconify iconify--iconoir" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" 

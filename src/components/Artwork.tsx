@@ -1,7 +1,9 @@
+import {useFadeIn} from '../../useFadeIn'
 
 function Artwork() {
+    const visible = useFadeIn()
     return (
-        <section>
+        <section className={`fade-in ${visible ? 'visible' : ''}`}>
            <div className="text-center">
                <h2 className="lg:text-8xl text-6xl font-black text-outline-white">
                 Envie de <br />découvrir mes <br /> œuvres ? </h2>
