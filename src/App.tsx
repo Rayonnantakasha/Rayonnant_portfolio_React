@@ -4,6 +4,7 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import Technology from "./components/Technology"
 import Artwork from "./components/Artwork"
+import Form from "./components/Form"
 import "./styles/App.css"
 import "./styles/index.css"
 
@@ -30,6 +31,9 @@ function App() {
       <div className="lg:pb-32 pt-24 pb-32">
       </div>
       <Artwork />
+      <div className="lg:pb-32 pt-24 pb-32">
+      </div>
+      <Form />
       <div className="lg:pb-32 pt-24 pb-32">
       </div>
      </main>
