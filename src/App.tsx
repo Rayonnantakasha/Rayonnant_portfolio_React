@@ -5,6 +5,7 @@ import Skills from "./components/Skills"
 import Technology from "./components/Technology"
 import Artwork from "./components/Artwork"
 import Form from "./components/Form"
+import Contact from "./components/Contact"
 import "./styles/App.css"
 import "./styles/index.css"
 
@@ -19,24 +20,28 @@ function App() {
       </div>
      <main className="lg:px-32 px-2">
       <HeroSection />
-      <div className="lg:pb-32 pt-24 pb-32">
+      <div className="lg:pb-32 pt-32 pb-32">
       </div>
       <About />
-      <div className="lg:pb-32 pt-24 pb-32">
+      <div className="lg:pb-32 pt-32 pb-32">
       </div>
       <Skills />
-      <div className="lg:pb-32 pt-24 pb-32">
+      <div className="lg:pb-32 pt-32 pb-32">
       </div>
       <Technology />
-      <div className="lg:pb-32 pt-24 pb-32">
+      <div className="lg:pb-32 pt-32 pb-32">
       </div>
       <Artwork />
-      <div className="lg:pb-32 pt-24 pb-32">
+      <div className="lg:pb-32 pt-32 pb-32">
       </div>
       <Form />
+      <div className="lg:pb-32 pt-32 pb-32">
+      </div>
+      <Contact />
       <div className="lg:pb-32 pt-24 pb-32">
       </div>
      </main>
+
       
     </>
   )
