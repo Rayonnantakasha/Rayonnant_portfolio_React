@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import About from "./components/About"
 import Skills from "./components/Skills"
+import Technology from "./components/Technology"
 import "./styles/App.css"
 import "./styles/index.css"
 
@@ -22,6 +23,9 @@ function App() {
       <div className="lg:pb-32 pt-24 pb-32">
       </div>
       <Skills />
+      <div className="lg:pb-32 pt-24 pb-32">
+      </div>
+      <Technology />
       <div className="lg:pb-32 pt-24 pb-32">
       </div>
      </main>
