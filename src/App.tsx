@@ -7,6 +7,7 @@ import Artwork from "./components/Artwork"
 import Form from "./components/Form"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import ScrollToTopButton from "./components/ScrollToTopButton"
 import "./styles/App.css"
 import "./styles/index.css"
 
@@ -43,7 +44,7 @@ function App() {
       </div>
      </main>
      <Footer />
-      
+     <ScrollToTopButton />
     </>
   )
 }
