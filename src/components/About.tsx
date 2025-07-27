@@ -4,7 +4,7 @@ function About() {
     const visible = useFadeIn()
     return (
         <section id="apropos" className={`fade-in ${visible ? 'visible' : ''}`}>
-             <div className="lg:flex lg:justify-between px-2 text-center lg:items-center">
+             <div className="lg:flex lg:justify-between lg:px-32  px-2 text-center lg:items-center">
               <div>
                 <h2 className="lg:text-6xl lg:mx-0 lg:text-left lg:w-[75%] text-2xl font-black">À PROPOS DE MOI</h2>
                 <p className="font-bold lg:mx-0 lg:text-left pt-4 pb-2">SUIVEZ-MOI SUR</p>

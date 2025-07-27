@@ -5,7 +5,7 @@ function HeroSection() {
     const visible = useFadeIn()
     return (
     <section className={`fade-in ${visible ? 'visible' : ''}`}>
-       <div className="lg:flex lg:items-center lg:justify-between lg:items-center">
+       <div className="lg:flex lg:items-center lg:justify-between lg:px-32  lg:items-center">
          <div>
             <h2 className="card lg:text-8xl pb-2 text-5xl md:text-6xl text-outline-white font-black">Je suis</h2>
             <h2 className="card lg:text-8xl pb-2 text-5xl md:text-6xl font-black">Devellopeur</h2>
