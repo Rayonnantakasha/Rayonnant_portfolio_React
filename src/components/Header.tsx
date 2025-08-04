@@ -6,7 +6,7 @@ function Header() {
       <div>
         <a href="/"><img src={logo} alt="akashadev" className="lg:w-52 w-36" /></a>
       </div>
-      <nav className="sm:flex justify-between gap-4 items-center">
+      <nav className="sm:flex hidden justify-between gap-4 items-center">
           <a href="/" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Accueil</a>
           <a href="#apropos" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">À propos</a>
           <a href="#Artwork" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Projets</a>

@@ -4,7 +4,7 @@ function About() {
     const visible = useFadeIn()
     return (
         <section id="apropos" className={`fade-in ${visible ? 'visible' : ''}`}>
-             <div className="lg:flex lg:justify-between lg:px-32  px-2 text-center lg:items-center">
+             <div className="lg:flex lg:justify-between lg:px-32  px-3 text-center lg:items-center">
               <div>
                 <h2 className="lg:text-6xl lg:mx-0 lg:text-left lg:w-[75%] text-2xl font-black">À PROPOS DE MOI</h2>
                 <p className="font-bold lg:mx-0 lg:text-left pt-4 pb-2">SUIVEZ-MOI SUR</p>
@@ -20,11 +20,11 @@ function About() {
                  </a>
                 </div>
             </div>
-              <div className="bg-[#38464B] lg:text-start lg:w-[40%] lg:p-6 p-6 shadow-xl backdrop-opacity-60">
-                 <p className="text-xl pb-2">Salut ! Je suis  Rayonnant  Nyonsa</p>
-                 <p className="text-xl w-md pb-2">Je suis <span className="text-[#ff5940]">Developpeur Web FullStack</span> Passionné par le web, je conçois des maquettes percutantes, des bases de données solides et des sites internet sur mesure, alliant esthétique et performance.</p>
-                 <p className="text-xl w-md pb-2">Je suis toujours en train de développer mes compétences et d'apprendre quelque chose de nouveau. Je suis un homme de contact, un bricoleur, un amoureux de la technologie et des sciences.</p>     
-                 <p className="text-xl w-md">
+              <div className="bg-[#38464B] lg:text-start lg:w-[40%] w-full lg:p-6 p-2 shadow-xl backdrop-opacity-60">
+                 <p className="lg:text-xl text-lg pb-2">Salut ! Je suis  Rayonnant  Nyonsa</p>
+                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2">Je suis <span className="text-[#ff5940]">Developpeur Web FullStack</span> Passionné par le web, je conçois des maquettes percutantes, des bases de données solides et des sites internet sur mesure, alliant esthétique et performance.</p>
+                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2">Je suis toujours en train de développer mes compétences et d'apprendre quelque chose de nouveau. Je suis un homme de contact, un bricoleur, un amoureux de la technologie et des sciences.</p>     
+                 <p className="lg:text-xl text-lg w-full lg:w-md">
                   Je suis toujours en train de développer mes compétences et d'apprendre quelque chose de nouveau. 
                   J'ai une soif de connaissances et un désir de comprendre comment les choses fonctionnent ; 
                   je suis un homme de contact, un bricoleur, un amoureux de la technologie et des sciences.
