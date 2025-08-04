@@ -3,7 +3,7 @@ import {useFadeIn} from '../../useFadeIn'
 function Artwork() {
     const visible = useFadeIn()
     return (
-        <section className={`fade-in ${visible ? 'visible' : ''}`}>
+        <section id='Artwork' className={`fade-in ${visible ? 'visible' : ''}`}>
              <div className='flex justify-center'>
                <h2 className="lg:text-8xl text-center lg:w-[45%] text-6xl font-black text-outline-white">
                 Découvrez mes œuvres

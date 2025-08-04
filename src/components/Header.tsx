@@ -8,9 +8,8 @@ function Header() {
       </div>
       <nav className="sm:flex justify-between gap-4 items-center">
           <a href="/" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Accueil</a>
-          <a href="#competences" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Compétences</a>
           <a href="#apropos" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">À propos</a>
-          <a href="/MesProjets" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Projets</a>
+          <a href="#Artwork" className="hover:text-[#ff5940] font-medium transition duration-300 ease-in-out text-base">Projets</a>
       </nav>
     </header>
     )
