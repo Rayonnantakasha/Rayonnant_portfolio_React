@@ -20,7 +20,7 @@ function ScrollToTopButton() {
   return isVisible ? (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-6 right-16 p-3 bg-transparent border border-white text-white hover:border-[#ff5940] hover:text-white shadow-lg transition duration-300 ease-in-out z-50"
+      className="fixed lg:bottom-6 bottom-6 lg:right-16 right-2 p-3 bg-transparent border border-white text-white hover:border-[#ff5940] hover:text-white shadow-lg transition duration-300 ease-in-out z-50"
       aria-label="Retour en haut"
     >
       <i className="fas fa-arrow-up hover:text-[#ff5940] transition duration-300 ease-in-out"/>
