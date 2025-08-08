@@ -21,14 +21,13 @@ function About() {
                 </div>
             </div>
               <div className="bg-[#38464B] lg:text-start lg:w-[40%] w-full lg:p-6 p-2 shadow-xl backdrop-opacity-60">
-                 <p className="lg:text-xl text-lg pb-2">Salut ! Je suis  Rayonnant  Nyonsa</p>
-                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2">Je suis <span className="text-[#ff5940]">Developpeur Web FullStack</span> Passionné par le web, je conçois des maquettes percutantes, des bases de données solides et des sites internet sur mesure, alliant esthétique et performance.</p>
-                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2">Je suis toujours en train de développer mes compétences et d'apprendre quelque chose de nouveau. Je suis un homme de contact, un bricoleur, un amoureux de la technologie et des sciences.</p>     
+                 <p className="lg:text-xl text-lg pb-2">Salut ! C'est moi Rayonnant  Nyonsa</p>
+                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2"><span className="text-[#ff5940]">Developpeur Web FullStack</span> passionné par tout ce qui touche au frontend au design et à la technologie. Je conçois des interfaces à la fois percutantes, intuitives et sur mesure, où esthétique rime avec performance.</p>
+                 <p className="lg:text-xl text-lg w-full lg:w-md pb-2">Créatif dans l’âme, je donne vie à des maquettes modernes et épurées. Avec une bonne maitrise côté back, je structure des bases de données fiables et performantes développant ainsi des expériences web qui marquent et engagent</p>     
                  <p className="lg:text-xl text-lg w-full lg:w-md">
-                  Je suis toujours en train de développer mes compétences et d'apprendre quelque chose de nouveau. 
-                  J'ai une soif de connaissances et un désir de comprendre comment les choses fonctionnent ; 
-                  je suis un homme de contact, un bricoleur, un amoureux de la technologie et des sciences.
-                </p>            
+                 Je suis animé par une soif de connaissances : j’apprends, j’expérimente, je progresse.
+                 Curieux de nature, j’aime comprendre comment les choses fonctionnent.
+                 </p>
               </div>
             </div>
         </section>

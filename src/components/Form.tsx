@@ -49,8 +49,8 @@ function Form() {
     return (
         <section id='form'>
            <div className={`container mx-auto px-6 ${visible ? 'visible' : ''}`}>
-             <h2 className="lg:text-6xl text-2xl font-bold mb-4 text-center">Envoyez un message !</h2>
-             <p className="text-center text-gray-200 mb-12">Vous avez une question ou une proposition, ou vous souhaitez simplement <br/> dire bonjour ? Allez-y</p>
+             <h2 className="lg:text-6xl text-2xl font-bold mb-6 text-center">Commandez un site Web</h2>
+             <p className="text-center text-gray-200 mb-12">Transformez votre vision en réalité numérique. Décrivez votre projet ci-dessous, <br />et je vous aiderai à créer un site Web époustouflant et fonctionnel. </p>
     
           <form id="contact-form" className="max-w-3xl mx-auto pt-8" onSubmit={handleSubmit}>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -65,7 +65,7 @@ function Form() {
         </div>
         <div className="mb-8">
             <label className="block text-gray-200 text-base font-semibold mb-2">VOTRE MESSAGE</label>
-             <textarea name="message" placeholder="Écrivez votre message" rows={4} className="input-field w-full font-semibold py-2 text-white text-base" value={formData.message} onChange={handleChange} required></textarea>
+             <textarea name="message" placeholder="Détails du Projet (Décrivez votre idée, vos fonctionnalités souhaitées, et tout ce que nous devrions savoir)" rows={4} className="input-field w-full font-semibold py-2 text-white text-base" value={formData.message} onChange={handleChange} required></textarea>
         </div>
           <button type="submit" className="w-full bg-[#ff5940] hover:bg-orange-800 transition duration-300 ease-in-out font-bold text-white py-3">ENVOYEZ VOTRE MESSAGE</button>
           
